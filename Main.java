@@ -28,7 +28,7 @@ class Main {
     System.out.println(tortilla);
     int sum=0;
     for (int element : tortilla) {
-      sum = tortilla.get(element) + sum;
+      sum = element + sum;
     }
     System.out.println("the sum of the values is: " + sum);
     int average = sum / quantity;
