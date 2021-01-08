@@ -9,7 +9,7 @@ class Main {
       biggie[x] = x;
     }
     for (int y : biggie) {
-      System.out.println("element " + (y + 1) + " is " + biggie[y]);
+      System.out.println("element " + (y + 1) + " is " + y);
     }
     // for exercise 2
     Scanner userInput = new Scanner(System.in);
